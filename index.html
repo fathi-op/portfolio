@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="script" href="scripts.js">
+    <title>Fathi's Portfolio</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <div id="header">
+                <h2>Hi! I'm Fathi</h2>
+                <h3>Software Engineer | Web Developer</h3>       
+            </div>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <button class="switching" id="modeSwitch">Dark Mode</button>
+    </nav>
+    
+    <hr>
+
+    <h4 id="About">About Me</h4>
+    <p class="about-paragraph">
+        Hello Everyone! I am <strong>Fathi</strong>, a <strong>Software Engineer</strong> at Optimum Partners and a <strong>Competitive Programmer</strong> at SolveXJo, my own YouTube channel.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati mollitia nobis ullam provident reprehenderit totam deserunt expedita possimus cum nulla! Commodi repellendus tempora inventore neque doloremque aut, culpa omnis sit! 
+    </p>
+    
+    <hr>
+
+    <h4 id="Skills">Skills</h4>
+    <ul class="skill">
+        <li>Problem Solving and Competitive Programming</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+    </ul>
+
+    <hr>
+
+    <h4>Projects</h4>
+    <table>
+        <tr>
+            <th>Project Name</th>
+            <th>Description</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <td>Zedny</td>
+            <td>A project for researchers in the MENA region where they can read, summarize, and translate research papers.</td>
+            <td>June 2025</td>
+        </tr>
+        <tr>
+            <td>Hadaya.com</td>
+            <td>Helps users choose the right gift based on Instagram account analysis.</td>
+            <td>Feb 2026</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h4>Contact</h4>
+    <p>If you are looking for any collaboration, please don't hesitate!</p>
+
+    <form class="form">
+        <label for="name" class="form_label">Name:</label>
+        <input type="text" id="name" class="form_input" required placeholder="Fathi Al-Sadi">
+    
+        <label for="email" class="form_label">Email:</label>
+        <input type="email" id="email" class="form_input" required placeholder="fathi@example.com">
+        
+        <label for="message" class="form_label">Message:</label>
+        <textarea id="message" class="form_input" required placeholder="Message..."></textarea>
+        
+        <button type="submit" class="form_button" onclick = return validateForm()>Submit</button>
+    </form>
+    <script src="scripts.js"></script>
+</body>
+</html>
